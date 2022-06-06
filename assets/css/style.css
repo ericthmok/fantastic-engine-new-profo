@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    text-align: right;
+    background-color: aquamarine;
+    line-height: 100px;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+
+.propic{
+    max-width: 20%;
+    border-radius: 8px;
+    left: 0px;
+}
+
+.phone,.gmail,.github,.linkedin{
+    max-width: 1.5%;
+}
+
+.horiseon{
+    opacity:0.5;
+    max-width:30%
+}
+
+.groupwork{
+    opacity:0.5;
+    max-width: 25%;
+}
+
+.horiseon: hover {
+
+}
+
+h1{
+    left:100px
+}
+
+section,main{
+    text-align:center
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    section{
+        width: 100%
+    }
+header{
+    background: palevioletred;
+}
+}
